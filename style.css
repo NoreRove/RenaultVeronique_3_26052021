@@ -20,6 +20,16 @@
     color : white;
 }
 
+.supplementary-color--dark
+{
+    background-color : #e4e4e7;
+}
+
+.supplementary-color--light
+{
+    background-color : #F2F2F2;
+}
+
 .police--1
 {
     font-family : 'Shrikhand','sans-serif';
@@ -30,13 +40,53 @@
     font-family: 'Roboto','sans-serif';
 }
 
+.police--2-light
+{
+    font-family: 'Roboto','sans-serif';
+    font-size: 100;   
+}
+
+img
+{
+    max-width: 100%;
+    
+}
 
 /* styles conteneurs principaux */ 
+
 
 a
 {
     outline : none;
     text-decoration: none;
+}
+
+i
+{
+    font-size : 1.5em;
+}
+
+#entete_main
+{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn_explorer
+{
+    background-color: #ecb3ff ;
+    border : 1px solid green;
+}
+
+.etape
+{
+    border : 1px solid red;
+}
+
+.boxResto
+{
+    border : 1px solid blue;
 }
 
 footer

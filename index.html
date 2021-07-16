@@ -20,8 +20,8 @@
         <!-- Lien vers mon fichier style -->
         <link rel="stylesheet" href="style.css">
     
-        <!-- Lien vers mon kit Font Awesome // A MODIFIER -->
-        <!--<script src="https://kit.fontawesome.com/5066cbd82e.js" crossorigin="anonymous"></script>-->
+        <!-- Lien vers mon kit Font Awesome -->
+        <script src="https://kit.fontawesome.com/5066cbd82e.js" crossorigin="anonymous"></script>
 
         <!-- Adaptation taille écran -->   
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,21 +35,120 @@
     <body>
         <!-- header -->
             <header>  
-                <h1 class="police--1">ohmyfood</h1>
+                <img class="photoV" src="images/logo/ohmyfood@2x.svg" alt="ohmyfood">
             </header>
         <!-- main -->
             <main> 
-                <h1 class="primary police--1">Test couleur primaire</h1>
-                <h1 class="secondary police--2">Test couleur primaire</h1>
-                <h1 class="tertiary police--2" >Test couleur primaire</h1>
+                <section id="entete_main" class ="supplementary-color--dark">
+                    <!-- accueil = position et lieu // restaurants = photo plat -->
+                    <!-- ajouter espace entre les éléments -->
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h2 class="police--2">Paris, Belleville</h2>
+                </section>
+
+                <section id="main_1" class="supplementary-color--light">
+                    <h1 class="police--2">Réservez le menu qui vous convient</h1>
+                    <div id="sous-titre"> <!-- pour passage ligne propre -->
+                        <h2 class="police--2-light">Découvrez des restaurants d'exception,</h2>
+                        <h2 class="police--2-light">sélectionnés par nos soins.</h2>
+                    </div>
+                    <div id="btn_explorer">
+                        <h2 class="police--2 color--contrast">Explorer nos restaurants</h2>
+                    </div>
+                </section>
+
+                <section id="main_2">
+                    <h2 class="police--2">Fonctionnement</h2>
+                    <div class="etape">
+                        <h2>1</h2>
+                        <div class="icone_etape">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="texte_etape">    
+                            <h2>Choisissez un restaurant</h2>
+                        </div>
+                    </div> 
+                    <div class="etape">
+                        <h2>2</h2>
+                        <div class="icone_etape">
+                            <i class="fas fa-list-ul"></i>
+                        </div>
+                        <div class="texte_etape">    
+                            <h2>Composez votre menu</h2>
+                        </div>
+                    </div> 
+                    <div class="etape">
+                        <h2>3</h2>
+                        <div class="icone_etape">
+                            <i class="fas fa-store"></i>
+                        </div>
+                        <div class="texte_etape">    
+                            <h2>Dégustez au restaurant</h2>
+                        </div>
+                    </div> 
+                </section>
+
+                <section id="main_3">
+                    <h2 class="police--2">Restaurants</h2>
+                    <article class="boxResto">
+                        <img class="photoV" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Plat La Palette du Goût">
+                        <h3>Nouveau</h3>
+                        <i class="far fa-heart"></i>
+                        <div class="article_resto">
+                                <h2 class="h2_margin">La palette du goût</h2>
+                                <p class="p_margin">Ménilmontant</p>
+                        </div>    
+                    </article>
+
+                    <article class="boxResto">
+                        <img class="photoV" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="Plat La note enchantée">
+                        <h3>Nouveau</h3>
+                        <i class="fas fa-heart primary"></i>
+                        <i class="fas fa-hand-pointer"></i>
+                        <div class="article_resto">
+                                <h2 class="h2_margin">La note enchantée</h2>
+                                <p class="p_margin">Charonne</p>
+                        </div>    
+                    </article>
+
+                    <article class="boxResto">
+                        <img class="photoV" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Plat À la Française">
+                        <i class="far fa-heart"></i>
+                        <div class="article_resto">
+                                <h2 class="h2_margin">À la Française</h2>
+                                <p class="p_margin">Cité Rouge</p>
+                        </div>   
+                    </article>
+
+                    <article class="boxResto">
+                        <img class="photoV" src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Plat Le délice des sens">
+                        <i class="far fa-heart"></i>
+                        <div class="article_resto">
+                                <h2 class="h2_margin">Le délice des sens</h2>
+                                <p class="p_margin">Folie-Méricourt</p>
+                        </div>    
+                    </article>
+
+                </section>
+
+
+                <i class="fas fa-check-circle tertiary"></i>    
+                <i class="fas fa-arrow-left"></i>                            
 
             </main>
         <!-- footer-->
             <footer>
                 <h3 class="police--1 color--contrast">ohmyfood</h3>
                 <div id="links_footer">
-                    <a class="police--2 color--contrast" href="" title="Accès resto">Proposer un restaurant</a>
-                    <a class="police--2 color--contrast" href="" title="Accès partenaire">Devenir partenaire</a>
+                    <!-- ajouter espace entre les éléments-->
+                    <div class="div_link_footer">
+                            <i class="fas fa-utensils color--contrast"></i>
+                            <a class="police--2 color--contrast" href="" title="Accès resto">Proposer un restaurant</a>
+                    </div> 
+                    <div class="div_link_footer">
+                            <i class="fas fa-hands-helping color--contrast"></i>
+                            <a class="police--2 color--contrast" href="" title="Accès partenaire">Devenir partenaire</a>
+                    </div> 
                     <a class="police--2 color--contrast" href="" title="Accès mentions légales">Mentions légales</a>
                     <a class="police--2 color--contrast" href="" title="Nous contacter">Contact</a>
                 </div>
