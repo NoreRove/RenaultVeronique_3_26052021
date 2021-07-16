@@ -43,9 +43,14 @@
 .police--2-light
 {
     font-family: 'Roboto','sans-serif';
-    font-size: 100;   
+    font-weight: 400;   
 }
 
+.police--2-thin
+{
+    font-family: 'Roboto','sans-serif';
+    font-weight: 200;   
+}
 img
 {
     max-width: 100%;
@@ -54,6 +59,14 @@ img
 
 /* styles conteneurs principaux */ 
 
+header
+{
+    height : 4em;
+    display: flex;
+    margin-bottom : 1em;
+    justify-content: center;
+    align-items : flex-end;
+}
 
 a
 {
@@ -64,6 +77,12 @@ a
 i
 {
     font-size : 1.5em;
+}
+
+#position
+{
+    display : flex;
+    align-items: center;
 }
 
 #entete_main
